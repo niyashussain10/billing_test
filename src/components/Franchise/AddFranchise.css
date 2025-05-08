@@ -1,0 +1,60 @@
+.franchise-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: #9aadbb;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    height: 80vh;
+    overflow-y: scroll;
+    scrollbar-3dlight-color: #28a745;
+  }
+  
+  .franchise-form h2, .franchise-form h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .franchise-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .franchise-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .franchise-form button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .franchise-form button:hover {
+    background-color: #218838;
+  }
+  
+  .franchise-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .franchise-list li {
+    background: #fff;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  

@@ -1,0 +1,124 @@
+/* Container for the whole form */
+.product-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background: #f0e2e2;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.product-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Form input styles */
+.product-form input,
+.product-form select,
+.product-form textarea {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* To handle the last item in each row */
+.product-form input:last-child,
+.product-form select:last-child,
+.product-form textarea:last-child {
+  margin-right: 0;
+}
+
+/* Grouping the fields in multiple columns */
+.product-form .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Placeholder styles */
+.product-form input::placeholder,
+.product-form select::placeholder,
+.product-form textarea::placeholder {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Textarea */
+.product-form textarea {
+  width: calc(100% - 20px);
+  height: 150px;
+  resize: vertical;
+}
+
+/* Buttons */
+.product-form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Hover for fields */
+.product-form input:hover,
+.product-form select:hover,
+.product-form textarea:hover {
+  border-color: #007bff;
+}
+
+/* === NEW: Search Section Styling === */
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-section button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #5bc674;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.search-section button:hover {
+  background-color: #218838;
+}
+
+/* Delete button specific */
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #b52a37;
+}

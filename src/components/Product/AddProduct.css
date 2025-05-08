@@ -1,0 +1,111 @@
+.add-product-form {
+  max-width: 700px;
+  max-height: 70vh;
+  overflow-y: auto;
+  margin: auto;
+  padding: 40px;
+  background: rgba(118, 141, 159, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  color: #d2b6b6;
+  font-family: "Segoe UI", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  scrollbar-width: thin;
+  scrollbar-color: #999 transparent;
+}
+
+.add-product-form::-webkit-scrollbar {
+  width: 6px;
+}
+.add-product-form::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.add-product-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.add-product-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #dacccc;
+}
+
+.add-product-form input,
+.add-product-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-product-form input::placeholder,
+.add-product-form textarea::placeholder {
+  font-size: 15px;
+  color: #310000;
+}
+
+.add-product-form input:focus,
+.add-product-form textarea:focus {
+  border-color: #1368c3;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.add-product-form input[type="file"] {
+  background-color: #ffffff;
+  padding: 8px;
+  border: 1px dashed #ccc;
+  cursor: pointer;
+}
+
+.add-product-form button {
+  background-color: #081a08;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.add-product-form button:hover {
+  background-color: #05478e;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.add-product-form button:active {
+  transform: scale(0.98);
+}
+
+@media screen and (max-width: 768px) {
+  .add-product-form {
+    padding: 20px;
+    max-width: 100%;
+    max-height: none;
+  }
+
+  .add-product-form input,
+  .add-product-form textarea {
+    width: 100%;
+  }
+
+  .add-product-form button {
+    font-size: 14px;
+  }
+}
