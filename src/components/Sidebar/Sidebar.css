@@ -1,7 +1,7 @@
 .sidebar {
     margin-left: 5px;
     width: 240px;
-    background: blue;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     padding: 24px;
     height: 90vh;
     border-radius: 20px;
