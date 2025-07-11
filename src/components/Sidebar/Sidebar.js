@@ -28,7 +28,7 @@ const Sidebar = () => {
       <div className="sidebar-section">
         <h4>Invoice</h4>
         <ul>
-          <li><Link to="/invoice/history">Billing  History</Link></li>
+          <li><Link to="/invoice/history">Billing History.</Link></li>
         </ul>
       </div>
     </div>
